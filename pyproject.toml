@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-search-endpoint"
+version = "0.1.0"
+description = ""
+authors = ["namtran6701 <nam3864779@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+pydantic = "^2.10.3"
+openai = "^1.57.4"
+tavily-python = "^0.5.0"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
